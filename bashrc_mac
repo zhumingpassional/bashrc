@@ -1,0 +1,12 @@
+alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs"
+PATH=$HOME/.cask/bin:$PATH
+export PATH=${PATH}:~/opt/anaconda3/bin
+#export PATH="$HOME/emacs/bin:$PATH"
+export PATH=$PATH:/Applications/Emacs.app/Contents/MacOS/
+PATH=$HOME/.cask/bin:$PATH
+
+
+export PATH=$PATH:~/.emacs.d/bin
+
+export GOROOT=/usr/local/go
+export GOPATH=~/Desktop/code/go
